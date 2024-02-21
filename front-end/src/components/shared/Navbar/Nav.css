@@ -1,0 +1,59 @@
+.navbar {
+    min-height: 7vh;
+    background-color: rgb(17, 22, 26);
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    padding: 0 12px;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    gap: 1rem;
+}
+
+.navbar-list-container{
+    text-align: left;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navbar-search {
+    border-radius: 999em;
+}
+
+.navbar-search-input {
+    padding: 8px 32px 8px 40px;
+    border: none;
+    border-radius: 999em;
+}
+
+.navbar-auth {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-separete {
+    background: rgb(55, 65, 81);
+    width: 1px;
+    height: 24px;
+}
